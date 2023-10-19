@@ -30,7 +30,7 @@ Responsivenes: **_This application is not currently enabled to run on large moni
 
 You can test the app in vercel! <br>
 
--[Link to the deployed webpage](apollofy-hamilton.vercel.app)
+- [Link to the deployed webpage](https://apollofy-hamilton.vercel.app)
 
 
 ### Colaborators

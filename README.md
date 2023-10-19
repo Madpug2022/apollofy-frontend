@@ -41,18 +41,22 @@ Once you open the app you will be greeted with the Login screen. Our log in syst
 
 ### Main Page
 **_This is the main page, you can log out with the up rigth menu, the albums and songs are loaded from the MongoDb database_**
+
 ![MainPage](https://github.com/Madpug2022/Apollofy-Hamilton/assets/98781462/642d57ff-7b2c-460d-8d21-de47041894f5)
 
 ### Search Page
 **_You can search for albums or users and use the filters_**
+
 ![SearchPage](https://github.com/Madpug2022/Apollofy-Hamilton/assets/98781462/6eef79d1-dd1e-4f22-b1fa-f3a8f3ccbb92)
 
 ### Upload Page
 **_You can upload songs you have in your personal computer, they will be stored in Cloudinary_**
+
 ![UploadPage](https://github.com/Madpug2022/Apollofy-Hamilton/assets/98781462/0012ba15-ff83-4642-a3d7-df0ee1cbf52c)
 
 ### User and liked Page
 **_You can like songs and albums and follow other users and they will be reflected in this page_**
+
 ![User and Liked](https://github.com/Madpug2022/Apollofy-Hamilton/assets/98781462/7a4da53b-c730-433e-8af4-963bccb590f3)
 
 

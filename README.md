@@ -1,43 +1,59 @@
-# APOLLOFY APP 📱
+# Apollofy-Hamilton
 
+### Description
 
-<img src="https://github.com/ali-hourag/Apollofy-Hamilton/assets/131694498/c54fd4c7-7ce4-498d-aced-f1de8144fbd1" width="300" height="606"/>
-<img src="https://github.com/ali-hourag/Apollofy-Hamilton/assets/131694498/897d7379-0a82-4e1c-880f-3813be533a3b" width="300" height="606"/>
-<img src="https://github.com/ali-hourag/Apollofy-Hamilton/assets/131694498/76e67e66-b01f-460f-b8d3-65622892ed98" width="300" height="606"/>
-<img src="https://github.com/ali-hourag/Apollofy-Hamilton/assets/131694498/6e895e88-15fa-4efb-9f43-0a41f2d0bcb2" width="300" height="606"/>
-<img src="https://github.com/ali-hourag/Apollofy-Hamilton/assets/131694498/9b0f76bd-0ae6-420e-92ea-f8fd0887530e" width="300" height="606"/>
-<img src="https://github.com/ali-hourag/Apollofy-Hamilton/assets/131694498/9c58d9a1-fea6-4476-a002-c09c23ea4867" width="300" height="606"/>
-<img src="https://github.com/ali-hourag/Apollofy-Hamilton/assets/131694498/9caf279d-d422-4f12-8417-88a70691db9d" width="300" height="606"/>
+Welcome to the Apollofy application.
+**This project contain 3 repositories you will require:**
+- [FrontEnd structure](https://github.com/Madpug2022/Apollofy-Hamilton)
+- [BackEnd Server](https://github.com/Madpug2022/ApolloFy_Back)
+- [Stadistics BackEnd Server](https://github.com/Madpug2022/apollofy_stats_back)
 
-## Table of Content:
+This web app simulates the Spotify interface that allows audio streaming over an interactive plataform. <br>
+Project is still in development and will be upgraded over time <br>
+This projects utilizes the Languages: **HTML, CSS, Typescript.** <br>
+Architecture: **React** <br>
+Databases: **Mongodb**(base Database)**Postgresql**(stadistics about user) <br>
+Libraries: **Auth0, Cloudinary, i18next, antd** <br>
 
-- [About](#about)
-- [Technologies](#technologies)
-- [Setup](#setup)
+BackEnd: **NodeJs, Express, Prisma, Mongoose**
 
-## About
+Responsivenes: **_This application is not currently enabled to run on large monitors, so I recommend using the "inspect" mode and the mobile device functionality to view the application in a range of 390x844_**
 
-Apollofy project is an app that resembles Spotify and Soundcloud, since it enables us to navigate though different songs,
-albums, playlists and artist while giving us the opportunity of adding our own tracks or albums.
-<br/>
-* Complex architecture consisting on 2 databases, one done with <a href="https://github.com/ali-hourag/apollofy_hamilton_back">MongoDB</a> that stores different the app data and another one that keeps different stats with <a href="https://github.com/ali-hourag/apollofy_stats_back">PostgreSQL</a> .
-* It can be used in spanish or english (i18next library).
-* Done with React and TypeScript, aside from other different libraries like react-hook-form, react-loading-skeleton...
-* Auth0 for authentication and Cloudinary for image and audio storage.
+### Instalation process
+1- Clone the above repositories in your personal computer. <br>
+2- You can use the command 'npm run dev' to start the servers and FrontEnd display. <br>
+3- Frontend will run in localhost: 5173 by default <br>
+4- Backend will run in localhost: 8080 by default <br>
+5- Stats server will run in localhost: 8081 by default <br>
 
-<a href="https://drive.google.com/file/d/1rs4g8KltTViM1sAjnO8LtP6VqGAi1GhY/view?usp=sharing">Click here to see  video demonstration of the app</a>
+### Colaborators
+This project was made in set with the Hamilton team **@Assembler Institute of Barcelona**: <br>
+-[Luis Jover](https://github.com/luisjover) <br>
+-[Ali Hourag](https://github.com/ali-hourag) <br>
+-[Javier GC](https://github.com/JaviGCK) <br>
+-[Ivan Fernandez](https://github.com/ifdezluperena) <br>
+ 
+## Overview
+Once you open the app you will be greeted with the Login screen. Our log in system is managed by [**Auth0**](https://auth0.com/) library. 
+**We don't store any type of sensitive information about your google account or any other data. All of this is done by Auth0 library, wich is a confident and secure access library.**
 
-## Technologies
-- HTML
-- CSS
-- TypeScript
-- React
-- Auth0
-- Cloudinary
-- AntDesign
-- Figma
-* This is the design that was done with Figma:
-  ![Screenshot 2023-10-17 at 06 12 53](https://github.com/ali-hourag/Apollofy-Hamilton/assets/131694498/51ef88b2-bf8c-49c9-abd9-64b8795d72c4)
+![Login](https://github.com/Madpug2022/Apollofy-Hamilton/assets/98781462/a68af840-1f83-4449-be4d-6da483cfa00d)
+
+### Main Page
+**_This is the main page, you can log out with the up rigth menu, the albums and songs are loaded from the MongoDb database_**
+![MainPage](https://github.com/Madpug2022/Apollofy-Hamilton/assets/98781462/642d57ff-7b2c-460d-8d21-de47041894f5)
+
+### Search Page
+**_You can search for albums or users and use the filters_**
+![SearchPage](https://github.com/Madpug2022/Apollofy-Hamilton/assets/98781462/6eef79d1-dd1e-4f22-b1fa-f3a8f3ccbb92)
+
+### Upload Page
+**_You can upload songs you have in your personal computer, they will be stored in Cloudinary_**
+![UploadPage](https://github.com/Madpug2022/Apollofy-Hamilton/assets/98781462/0012ba15-ff83-4642-a3d7-df0ee1cbf52c)
+
+### User and liked Page
+**_You can like songs and albums and follow other users and they will be reflected in this page_**
+![User and Liked](https://github.com/Madpug2022/Apollofy-Hamilton/assets/98781462/7a4da53b-c730-433e-8af4-963bccb590f3)
 
 
 ## Setup

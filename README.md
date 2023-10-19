@@ -26,6 +26,13 @@ Responsivenes: **_This application is not currently enabled to run on large moni
 4- Backend will run in localhost: 8080 by default <br>
 5- Stats server will run in localhost: 8081 by default <br>
 
+### Deployment
+
+You can test the app in vercel! <br>
+
+-[Link to the deployed webpage](apollofy-hamilton.vercel.app)
+
+
 ### Colaborators
 This project was made in set with the Hamilton team **@Assembler Institute of Barcelona**: <br>
 -[Luis Jover](https://github.com/luisjover) <br>
